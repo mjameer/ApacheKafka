@@ -1,5 +1,6 @@
 # ApacheKafka
 
+
 # Start Zookeeper Server
 
 sh bin/zookeeper-server-start.sh config/zookeeper.properties
@@ -28,7 +29,10 @@ sh bin/kafka-console-producer.sh --broker-list localhost:9092 --topic NewTopic
 
 sh bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic NewTopic --from-beginning
 
-# Confluent Kafka Community Edition - Start Zookeeper Server
+# Confluent Kafka Community Edition
+
+
+# Start Zookeeper Server
 
 bin/zookeeper-server-start etc/kafka/zookeeper.properties
 
